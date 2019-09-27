@@ -1,5 +1,5 @@
 import React from 'react';
-import error from "../assets/images/warning.svg";
+import error from "../assets/warning.svg";
 import {Link} from 'react-router-dom'
 
 const ErrorMain = () => {
@@ -12,7 +12,6 @@ const ErrorMain = () => {
                 <img src={error} className="error-img"/>
                 <Link to='/' className="button-dark button-error">Back to Home</Link>
             </div>
-
         </div>
     );
 };

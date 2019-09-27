@@ -9,6 +9,7 @@ import Home from './pages/Home'
 // import Catalog from './pages/Catalog'
 // import Collection from './pages/Collection'
 import InDevelopment from './pages/InDevelopment'
+import Error from './pages/Error'
 import Navbar from "./Components/Navbar";
 import {Route, Switch} from 'react-router-dom'
 

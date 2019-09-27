@@ -128,7 +128,7 @@ button:focus, .logo:focus {
             rgba(57, 63, 77, 0.6),
             rgba(29, 30, 34, 0.6)
     ),
-    url("./assets/bck1.webp");
+    url("./assets/bck1.jpg");
     background-size: cover;
     display: flex;
     align-items: center;
@@ -140,7 +140,7 @@ button:focus, .logo:focus {
             rgba(57, 63, 77, 0.6),
             rgba(29, 30, 34, 0.6)
     ),
-    url("./assets/photo5.webp");
+    url("./assets/photo5.jpg");
     background-size: cover;
     display: flex;
     align-items: center;
@@ -152,7 +152,7 @@ button:focus, .logo:focus {
             rgba(57, 63, 77, 0.6),
             rgba(29, 30, 34, 0.6)
     ),
-    url("./assets/photo2.webp");
+    url("./assets/photo2.jpg");
     background-size: cover;
     display: flex;
     align-items: center;
@@ -164,7 +164,7 @@ button:focus, .logo:focus {
             rgba(57, 63, 77, 0.6),
             rgba(29, 30, 34, 0.6)
     ),
-    url("./assets/bck.webp");
+    url("./assets/bck.jpg");
     background-size: cover;
     display: flex;
     align-items: center;
@@ -176,7 +176,7 @@ button:focus, .logo:focus {
             rgba(57, 63, 77, 0.6),
             rgba(29, 30, 34, 0.6)
     ),
-    url("./assets/bck.webp");
+    url("./assets/bck.jpg");
     background-size: cover;
     display: flex;
     align-items: center;
@@ -506,7 +506,7 @@ button:focus, .logo:focus {
             rgba(57, 63, 77, 0.6),
             rgba(29, 30, 34, 0.6)
     ),
-    url("./assets/man1.webp");
+    url("./assets/man1.jpg");
     background-size: cover;
 }
 .design-text {
@@ -846,6 +846,7 @@ button:focus, .logo:focus {
     color: #feda6a;
     font-weight: 300;
     margin: 20px 0 0 0;
+    font-size: 1.3rem;
 }
 .new-arr-code {
     color: #d4d4dc;
@@ -956,7 +957,7 @@ footer p {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 100vw;
+    width: 100%;
     padding-bottom: 5%;
 }
 .error-img {
@@ -966,4 +967,12 @@ footer p {
 .button-error {
     background-color: #feda6a;
     color: black;
+}
+.letter-error {
+    color: rgba(255, 255, 255, 0.1);
+    font-size: 17rem;
+    font-weight: 700;
+    position: absolute;
+    z-index: 0;
+    left: 20%;
 }

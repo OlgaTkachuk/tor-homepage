@@ -1,7 +1,7 @@
 import React from 'react';
 import {Link} from "react-router-dom";
-import img_par_2 from '../assets/photo2.webp';
-import img_par_1 from '../assets/photo1.webp';
+import img_par_2 from '../assets/photo2.jpg';
+import img_par_1 from '../assets/photo1.jpg';
 
 const AboutSection = ({title, title_classname}) => {
     return (
